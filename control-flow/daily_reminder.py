@@ -26,7 +26,7 @@ match priority:
 # Modify message based on time sensitivity
 if time_bound == "yes":
     message += " that requires immediate attention today!"
-    print("\nReminder:", message)
+    print(f"Reminder: {message}")
 else:
     message += ". Consider completing it when you have free time."
-    print("\nNote:", message)
+    print(f"Note: {message}")
