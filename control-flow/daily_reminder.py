@@ -22,4 +22,4 @@ else:
     reminder = f"Note: {reminder}. Consider completing it when you have free time."
 
 # Print the final reminder
-print("\nReminder:", reminder)
+print(f"\nReminder: {reminder}")
